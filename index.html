@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intern Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="main">
+    <div class="header">
+        <img
+        class="logo"
+        src="https://t3.ftcdn.net/jpg/02/47/48/00/360_F_247480017_ST4hotATsrcErAja0VzdUsrrVBMIcE4u.jpg"
+        alt="Logo"
+        />
+        <div class="menu">
+        <div class="searchbar">
+            <div class="searchinput">
+                <input  type="text" placeholder="Search Here..." />
+            </div>
+            <div class="searchbutton">
+            <i class="fa fa-search"></i>
+        </div>
+        </div>
+        <i id="hidden" class="fa fa-search"></i>
+        <div class="buttons">
+            <div class="signin">
+            <i class="fa-solid fa-user"></i>
+            <h4>SignIn/SignUp</h4>
+            </div>
+            <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h4>Cart</h4>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <div class="slide first">
+            <img
+                src="https://picsum.photos/id/237/1530/600
+                        "
+                alt=""
+            />
+            </div>
+            <div class="slide">
+            <img
+                src="https://picsum.photos/id/217/1530/600
+                        "
+                alt=""
+            />
+            </div>
+            <div class="slide">
+            <img
+                src="https://picsum.photos/id/257/1530/600
+                        "
+                alt=""
+            />
+            </div>
+
+            <div class="navigation-auto">
+            <div class="auto_btn1"></div>
+            <div class="auto_btn2"></div>
+            <div class="auto_btn3"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+        </div>
+    </div>
+    <div class="sectionA">
+        <div class="cards">
+        <div class="sub-cards">
+            <i class="ri-truck-line"></i>
+            <div>
+            <h3>Free Shiping</h3>
+            <h5>On all orders over $100.00</h5>
+            </div>
+        </div>
+        <div class="sub-cards">
+            <i class="ri-refund-line"></i>
+            <div>
+            <h3>Free Returns</h3>
+            <h5>Shipping are free within 9 days</h5>
+            </div>
+        </div>
+        <div class="sub-cards">
+            <i class="ri-bank-card-line"></i>
+            <div>
+            <h3>100% Secure Payments</h3>
+            <h5>Your payments are safe with us.</h5>
+            </div>
+        </div>
+        <div class="sub-cards">
+            <i class="ri-24-hours-fill"></i>
+            <div>
+            <h3>24/7 Support</h3>
+            <h5>Contact us 24 hours a day</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="sectionB">
+        <div class="image">
+          <img id="img-move"
+            src="https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg"
+            alt=""
+          />
+        </div>
+        <div class="textspace">
+          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            tenetur magnam ipsam error expedita aliquid accusantium tempore
+            ipsum sequi officia. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Velit, animi. Ducimus reprehenderit mollitia
+            aperiam sint inventore similique harum, a quasi unde minima eius?
+            Veniam aperiam eaque molestias ipsa voluptas tempora.
+          </p>
+          <button class="btn">Click Me</button>
+        </div>
+    </div>
+    <div class="sectionC">
+            <div class="card">
+              <div class="discount">
+                <h4>15% off</h4>
+              </div>
+              <img
+                src="https://imgs.search.brave.com/HBl_T5KkQuwZdTbyhCnScuHZSxrbjYnoPxf1GoRGzPk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbHVm/ZnktMTI3MC14LTEy/NzAtcGljdHVyZS1x/ODAzNGQxNnkzM296/NXljLmpwZw"
+                alt=""
+              />
+              <h4>Portable Charger 2000...</h4>
+              <h4 id="pieces">1 Pc</h4>
+              <h4>
+                <span id="prevprice"><s>$999</s></span> $799
+              </h4>
+              <h4 id="newprice">Save $200</h4>
+              <div class="but">
+                <button class="fis add">Add to cart</button>
+                <button class="fis buy">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="discount">
+                <h4>15% off</h4>
+              </div>
+              <img
+                src="https://imgs.search.brave.com/HBl_T5KkQuwZdTbyhCnScuHZSxrbjYnoPxf1GoRGzPk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbHVm/ZnktMTI3MC14LTEy/NzAtcGljdHVyZS1x/ODAzNGQxNnkzM296/NXljLmpwZw"
+                alt=""
+              />
+              <h4>Portable Charger 2001...</h4>
+              <h4 id="pieces">1 Pc</h4>
+              <h4>
+                <span id="prevprice"><s>$999</s></span> $799
+              </h4>
+              <h4 id="newprice">Save $200</h4>
+              <div class="but">
+                <button class="fis add">Add to cart</button>
+                <button class="fis buy">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="discount">
+                <h4>15% off</h4>
+              </div>
+              <img
+                src="https://imgs.search.brave.com/HBl_T5KkQuwZdTbyhCnScuHZSxrbjYnoPxf1GoRGzPk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbHVm/ZnktMTI3MC14LTEy/NzAtcGljdHVyZS1x/ODAzNGQxNnkzM296/NXljLmpwZw"
+                alt=""
+              />
+              <h4>Portable Charger 2002...</h4>
+              <h4 id="pieces">1 Pc</h4>
+              <h4>
+                <span id="prevprice"><s>$999</s></span> $799
+              </h4>
+              <h4 id="newprice">Save $200</h4>
+              <div class="but">
+                <button class="fis add">Add to cart</button>
+                <button class="fis buy">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="discount">
+                <h4>15% off</h4>
+              </div>
+              <img
+                src="https://imgs.search.brave.com/HBl_T5KkQuwZdTbyhCnScuHZSxrbjYnoPxf1GoRGzPk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbHVm/ZnktMTI3MC14LTEy/NzAtcGljdHVyZS1x/ODAzNGQxNnkzM296/NXljLmpwZw"
+                alt=""
+              />
+              <h4>Portable Charger 2003...</h4>
+              <h4 id="pieces">1 Pc</h4>
+              <h4>
+                <span id="prevprice"><s>$999</s></span> $799
+              </h4>
+              <h4 id="newprice">Save $200</h4>
+              <div class="but">
+                <button class="fis add">Add to cart</button>
+                <button class="fis buy">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="discount">
+                <h4>15% off</h4>
+              </div>
+              <img
+                src="https://imgs.search.brave.com/HBl_T5KkQuwZdTbyhCnScuHZSxrbjYnoPxf1GoRGzPk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbHVm/ZnktMTI3MC14LTEy/NzAtcGljdHVyZS1x/ODAzNGQxNnkzM296/NXljLmpwZw"
+                alt=""
+              />
+              <h4>Portable Charger 2004...</h4>
+              <h4 id="pieces">1 Pc</h4>
+              <h4>
+                <span id="prevprice"><s>$999</s></span> $799
+              </h4>
+              <h4 id="newprice">Save $200</h4>
+              <div class="but">
+                <button class="fis add">Add to cart</button>
+                <button class="fis buy">Buy Now</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="discount">
+                <h4>15% off</h4>
+              </div>
+              <img
+                src="https://imgs.search.brave.com/HBl_T5KkQuwZdTbyhCnScuHZSxrbjYnoPxf1GoRGzPk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbHVm/ZnktMTI3MC14LTEy/NzAtcGljdHVyZS1x/ODAzNGQxNnkzM296/NXljLmpwZw"
+                alt=""
+              />
+              <h4>Portable Charger 2004...</h4>
+              <h4 id="pieces">1 Pc</h4>
+              <h4>
+                <span id="prevprice"><s>$999</s></span> $799
+              </h4>
+              <h4 id="newprice">Save $200</h4>
+              <div class="but">
+                <button class="fis add">Add to cart</button>
+                <button class="fis buy">Buy Now</button>
+              </div>
+            </div>
+            <button id="view">View More</button>
+        </div>
+    <div class="sectionD">
+                <div class="test-he">
+                <h1 class="heading">doctors feedback</h1>
+                </div>
+                <div class="test-sub">
+                <div class="test-lst">
+                    <img
+                    src="https://imgs.search.brave.com/ngAC_4OLttkdqnlqtnQrUtxZwJmAgscV8MkuGTqK97g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9k/b2N0b3ItcHJlcGFy/aW5nLWNvbnN1bHRf/MjMtMjE0OTMwOTk0/MS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw"
+                    alt=""
+                    />
+                    <div class="test-lst-sub">
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                        expedita reiciendis voluptatem pariatur eius sed consequatur
+                        quibusdam nemo cupiditate quae?
+                    </p>
+                    <h1>Dr.Anna</h1>
+                    </div>
+                </div>
+                <div class="test-lst">
+                    <img
+                    src="https://imgs.search.brave.com/ngAC_4OLttkdqnlqtnQrUtxZwJmAgscV8MkuGTqK97g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9k/b2N0b3ItcHJlcGFy/aW5nLWNvbnN1bHRf/MjMtMjE0OTMwOTk0/MS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw"
+                    alt=""
+                    />
+                    <div class="test-lst-sub">
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                        expedita reiciendis voluptatem pariatur eius sed consequatur
+                        quibusdam nemo cupiditate quae?
+                    </p>
+                    <h1>Dr.Anna</h1>
+                    </div>
+                </div>
+                <div class="test-lst">
+                    <img
+                    src="https://imgs.search.brave.com/ngAC_4OLttkdqnlqtnQrUtxZwJmAgscV8MkuGTqK97g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9k/b2N0b3ItcHJlcGFy/aW5nLWNvbnN1bHRf/MjMtMjE0OTMwOTk0/MS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw"
+                    alt=""
+                    />
+                    <div class="test-lst-sub">
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                        expedita reiciendis voluptatem pariatur eius sed consequatur
+                        quibusdam nemo cupiditate quae?
+                    </p>
+                    <h1>Dr.Anna</h1>
+                    </div>
+                </div>
+                </div>
+    </div>
+    <div class="footer">
+        <div class="left">
+            <div class="logo">
+                <img class="logo"src="https://t3.ftcdn.net/jpg/02/47/48/00/360_F_247480017_ST4hotATsrcErAja0VzdUsrrVBMIcE4u.jpg"alt="Logo"/>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae excepturi maxime iusto provident, omnis aperiam .</p>
+            <div class="helpline">
+                <i class="fa-solid fa-phone"></i>
+                <div class="number">
+                    <h4>NEED HELP?</h4>
+                    <p>+91 9876543210</p>
+                </div>
+            </div>
+            <p class="copy">&copy; Copyright 2020 ShopKart</p>
+        </div>
+        <div class="Right">
+            <div class="customerservice">
+                <h3>Customer Service</h3>
+                <p>Privacy Policy</p>
+                <p>Terms And Conditions</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="download">
+                <h3>Download From PlayStore</h3>
+                <i class="fa-brands fa-google-play"></i>
+            </div>
+            <div class="socialmedia">
+                <h3>Social Media Links</h3>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="script.js"></script>
+</body>
+</html>
