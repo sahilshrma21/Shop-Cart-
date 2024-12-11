@@ -189,7 +189,10 @@ html,body{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .manual-btn:not(:last-child){
